@@ -62,7 +62,7 @@ export default {
 
   data() {
     return {
-      APIKey: 'SkyWayのAPIキー',
+      APIKey: process.env.API_KEY,
       selectedAudio: '',
       selectedVideo: '',
       audios: [],
